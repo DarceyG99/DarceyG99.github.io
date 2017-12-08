@@ -1,7 +1,7 @@
 body {margin: 60px auto;
     width: 70%;}
 nav ul, footer ul {
-    font-family:"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;}
@@ -9,8 +9,12 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;}
 
+body {
+    background-color: lightblue;
+}
+
 h1 {
-	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 24px;
 	font-style: normal;
 	font-variant: normal;
@@ -18,7 +22,7 @@ h1 {
 	line-height: 26.4px;
 }
 h3 {
-	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
@@ -26,7 +30,7 @@ h3 {
 	line-height: 15.4px;
 }
 p {
-	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-variant: normal;
