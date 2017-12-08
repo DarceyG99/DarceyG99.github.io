@@ -1,25 +1,28 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
+body {margin: 60px auto;
+    width: 70%;}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
-    font-weight: bold;
-}
+    font-weight: bold;}
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
-}
+    margin-right: 20px;}
 
 #logo_text h1 a .logo_colour
 { color: #FFF;}
+#header
+{ background: transparent;
+  height: 202px;}
 
-a {
-    text-decoration: none;
-    color: #999;
-}
+#logo
+{ width: 898px;
+  position: relative;
+  height: 148px;
+  border-bottom: 2px solid #FFF;}
+
+a {text-decoration: none;
+    color: #999;}
 a:hover {
     text-decoration: underline;
 }
