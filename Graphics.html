@@ -16,5 +16,66 @@
     		</ul>
 	</nav>
   <h1>Graphics</h1>
+	<div class="row">
+  <div class="column">
+    <img src="https://user-images.githubusercontent.com/34352821/33778625-60016afa-dc41-11e7-9b6f-4b34e593a8ac.JPG" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://user-images.githubusercontent.com/34352821/33778629-65f58108-dc41-11e7-8830-eb73a888fe7a.JPG" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://user-images.githubusercontent.com/34352821/33778636-6c991cae-dc41-11e7-8f09-ff90a6a3cb7f.JPG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://user-images.githubusercontent.com/34352821/33778785-1b10d9a2-dc42-11e7-919c-c86d2113229a.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="https://user-images.githubusercontent.com/34352821/33778625-60016afa-dc41-11e7-9b6f-4b34e593a8ac.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="https://user-images.githubusercontent.com/34352821/33778629-65f58108-dc41-11e7-8830-eb73a888fe7a.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="https://user-images.githubusercontent.com/34352821/33778636-6c991cae-dc41-11e7-8f09-ff90a6a3cb7f.JPG" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="https://user-images.githubusercontent.com/34352821/33778785-1b10d9a2-dc42-11e7-919c-c86d2113229a.JPG" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="https://user-images.githubusercontent.com/34352821/33778625-60016afa-dc41-11e7-9b6f-4b34e593a8ac.JPG" style="width:100%" onclick="currentSlide(1)" alt="Side View">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://user-images.githubusercontent.com/34352821/33778629-65f58108-dc41-11e7-8830-eb73a888fe7a.JPG" style="width:100%" onclick="currentSlide(2)" alt="View of the pond">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://user-images.githubusercontent.com/34352821/33778636-6c991cae-dc41-11e7-8f09-ff90a6a3cb7f.JPG" style="width:100%" onclick="currentSlide(3)" alt="The picnic table">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://user-images.githubusercontent.com/34352821/33778785-1b10d9a2-dc42-11e7-919c-c86d2113229a.JPG" style="width:100%" onclick="currentSlide(4)" alt="A work in progress">
+    </div>
+  </div>
+</div>
 </body>
 </html>
