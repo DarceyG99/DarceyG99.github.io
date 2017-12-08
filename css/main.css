@@ -9,17 +9,9 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;}
 
-#logo_text h1 a .logo_colour
-{ color: #FFF;}
 #header
 { background: transparent;
-  height: 202px;}
-
-#logo
-{ width: 898px;
-  position: relative;
-  height: 148px;
-  border-bottom: 2px solid #FFF;}
+  height: 20px;}
 
 a {text-decoration: none;
     color: #999;}
