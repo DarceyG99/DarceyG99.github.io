@@ -1,10 +1,12 @@
 body {margin: 60px auto;
     width: 70%;}
+
 nav ul, footer ul {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;}
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;}
@@ -20,6 +22,7 @@ li {
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 20px;
+	text-align: center;
 }
 	
 h1 {
@@ -29,6 +32,7 @@ h1 {
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
+	text-align: center;
 }
 h3 {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -37,6 +41,7 @@ h3 {
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 15.4px;
+	text-align: center;
 }
 p {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -45,18 +50,5 @@ p {
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 20px;
-}
-
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
+	text-align: center;
 }
