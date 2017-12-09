@@ -51,7 +51,16 @@ p {
 	line-height: 20px;
 	text-align: center;
 }
-table tr {
+table {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: center;
+}
+tr {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 24px;
 	font-style: normal;
