@@ -40,9 +40,23 @@ var radius = canvas.height / 2;
 ctx.translate(radius, radius);
 radius = radius * 0.90
 setInterval(drawClock, 1000);
-
+}
 function setInterval(drawClock, 1000);{
   drawFace(ctx, radius);
   drawNumbers(ctx, radius);
   drawTime(ctx, radius);
 }
+function c(val) {
+  document.getElementById("d").value=val;
+}
+function v(val) {
+  document.getElementById("d").value+=val;
+}
+function e() { 
+  try 
+{ 
+  c(eval(document.getElementById("d").value)) 
+} 
+catch(e)  {
+  c('Error') 
+} 
